@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:elfperidot/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:elfperidot/pipelineUser:token
+  username: cb-cloud-native-ci-cd-play[bot]
+prow:
+  hmacToken: vault:elfperidot/prow:hmacToken
+segmentWriteKey: vault:elfperidot:segmentWriteKey
